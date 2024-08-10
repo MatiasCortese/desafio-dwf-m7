@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        // "moduleResolution": "node",
+        "module": "CommonJS",
+        // "esModuleInterop": true,
+        "skipLibCheck": true,
+        "resolveJsonModule": true,
+        "allowImportingTsExtensions": true,
+        "noEmit": true,
+        "outDir": "be-dist"
+    },
+    //  "includes": ["./be-src/**/*.ts"]
+    "includes": ["./be-src/**/**/*.ts"]
+}
